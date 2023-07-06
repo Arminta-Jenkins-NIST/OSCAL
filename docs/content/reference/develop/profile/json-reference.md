@@ -4587,8 +4587,9 @@ The following is the JSON format reference for this [model](/concepts/layer/cont
                                           without having to call them individually.</p>
                                     </div>
                                     <div class="remarks">
-                                       <p>Identifies a subset of controls to import from the referenced catalog or profile by
-                                          control identifier or match pattern.</p>
+                                       <p>If <code>with-child-controls</code> is <q>yes</q> on the call to a control, any controls appearing within it (child controls) will
+                                          be selected, with no additional <code>call</code> directives required. This flag provides a way to include controls with all their
+                                          dependent controls (enhancements) without having to call them individually.</p>
                                     </div>
                                  </details>
                               </div>
@@ -6647,7 +6648,7 @@ The following is the JSON format reference for this [model](/concepts/layer/cont
                                                    <p class="array-member">(array member)</p>
                                                    <p class="type">object<br /> <a class="definition-link" href="../json-definitions/#/assembly/oscal-profile/group/insert-controls">(global definition)</a></p>
                                                    <p class="occurrence">[1 to ∞]</p>
-                                                   <p class="formal-name">Select Controls</p>
+                                                   <p class="formal-name">Insert Controls</p>
                                                 </div>
                                                 <div class="body">
                                                    <p class="description"><span class="usa-tag">Description</span> Specifies which controls to use in the containing context.</p>
@@ -6944,7 +6945,7 @@ The following is the JSON format reference for this [model](/concepts/layer/cont
                                        <p class="array-member">(array member)</p>
                                        <p class="type">object<br /> <a class="definition-link" href="../json-definitions/#/assembly/oscal-profile/merge/custom/insert-controls">(global definition)</a></p>
                                        <p class="occurrence">[1 to ∞]</p>
-                                       <p class="formal-name">Select Controls</p>
+                                       <p class="formal-name">Insert Controls</p>
                                     </div>
                                     <div class="body">
                                        <p class="description"><span class="usa-tag">Description</span> Specifies which controls to use in the containing context.</p>

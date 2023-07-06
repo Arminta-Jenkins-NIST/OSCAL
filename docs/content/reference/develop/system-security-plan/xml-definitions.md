@@ -2878,7 +2878,7 @@ The following is a reference for the XML element and attribute types derived fro
             </details>
          </div>
          <details>
-            <summary>Constraints (11)</summary>
+            <summary>Constraints (10)</summary>
             
             <div class="constraint">
                <p><span class="usa-tag">allowed value</span> for <code class="path">(.|statement|.//by-component)/prop[has-oscal-namespace('http://csrc.nist.gov/ns/oscal')]/@name</code></p>
@@ -2906,16 +2906,6 @@ The following is a reference for the XML element and attribute types derived fro
                   <li><strong>customer-provided</strong>: The control must be implemented by the customer.</li>
                   
                   <li><strong>inherited</strong>: This control is inherited from an underlying system.</li>
-                  </ul>
-            </div>
-            
-            <div class="constraint">
-               <p><span class="usa-tag">allowed value</span> for <code class="path">prop[has-oscal-namespace('http://csrc.nist.gov/ns/oscal')]/@name</code></p>
-               <p>The value <b>must</b> be one of the following:</p>
-               <ul>
-                  
-                  <li><strong>leveraged-authorization</strong>: Indicates all or some portion of this control is inherited from an underlying authorized
-                     system.</li>
                   </ul>
             </div>
             
@@ -6151,7 +6141,6 @@ The following is a reference for the XML element and attribute types derived fro
                   </div>
                   <div class="body">
                      <p class="description"><span class="usa-tag">description</span> A value selection among several such options.</p>
-                     <p><span class="usa-tag">use name</span> <code class="name">choice</code></p>
                   </div>
                </div>
             </div>
@@ -7282,7 +7271,6 @@ The following is a reference for the XML element and attribute types derived fro
                   </div>
                   <div class="body">
                      <p class="description"><span class="usa-tag">description</span> A parameter value or set of values.</p>
-                     <p><span class="usa-tag">use name</span> <code class="name">value</code></p>
                   </div>
                </div>
                <div class="model-entry definition field">
